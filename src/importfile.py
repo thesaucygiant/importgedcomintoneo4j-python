@@ -20,6 +20,7 @@ for line in gedcomfile:
 	if re.match("(.*)NAME(.*)", line):
     	#print line
 		if line.find("/") <> -1:
+		####
 			firstslashposition = 0
 			#firstslashposition = line.find('/')
 			print "Found a Forward Slash"
